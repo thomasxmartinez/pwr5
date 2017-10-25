@@ -1,20 +1,20 @@
-'use strict';
+$('.caption-text').text('THIS SHOULD WORK');
 
-function liftFive(num) {
-  return num * 0.8;
-}
-
-console.log(liftFive(500));
-
-function liftArray(nums) {
-  var newNums = [];
-  for (var i = 0; i < nums.length; i++) {
-    newNums.push(nums[i] * 0.8);
-  }
-  return newNums;
-}
-
-console.log(liftArray([500, 400, 300, 200, 100]));
+// function liftFive(num) {
+//   return num * 0.8;
+// }
+//
+// console.log(liftFive(500));
+//
+// function liftArray(nums) {
+//   var newNums = [];
+//   for (var i = 0; i < nums.length; i++) {
+//     newNums.push(nums[i] * 0.8);
+//   }
+//   return newNums;
+// }
+//
+// console.log(liftArray([500, 400, 300, 200, 100]));
 
 // function liftObject(obj) {
 //   for (var key in obj) {
@@ -31,3 +31,5 @@ console.log(liftArray([500, 400, 300, 200, 100]));
 //   BarbellRow: 100
 // };
 // liftObject(totals);
+
+$('.caption-text').text('Magic!');
