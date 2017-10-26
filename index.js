@@ -1,5 +1,11 @@
-$('.caption-text').text('THIS SHOULD WORK');
+// $('.caption-text').text('THIS SHOULD WORK');
 
+$('.submission').click(function() {
+  var newArray = [];
+  var total = $('.total').val();
+  newArray.push(total);
+  console.log(newArray);
+});
 // function liftFive(num) {
 //   return num * 0.8;
 // }
@@ -31,5 +37,3 @@ $('.caption-text').text('THIS SHOULD WORK');
 //   BarbellRow: 100
 // };
 // liftObject(totals);
-
-$('.caption-text').text('Magic!');
