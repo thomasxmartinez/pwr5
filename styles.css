@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-  color: #000000;
+  color: #0abab5;
   margin-right: 30%;
 }
 
@@ -29,6 +29,15 @@ form {
   overflow: hidden;
 }
 
+.form label {
+  display: block;
+  margin: 0px;
+}
+
+input {
+  display: block;
+  margin-left: 4em;
+}
 img {
   height: 20em;
   margin-top: 10em;
