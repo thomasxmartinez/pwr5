@@ -5,7 +5,7 @@ var squat = Number(localStorage.Squat) * 0.8;
 var shoulder = Number(localStorage.ShoulderPress) * 0.8;
 
 var lifts = function(element, workout) {
-  document.getElementById(element).innerHTML = '- ' + Math.floor(workout);
+  document.getElementById(element).innerHTML = '5 x 5 @ -' + Math.floor(workout);
 };
 
 lifts('lifts-deads', deads);
